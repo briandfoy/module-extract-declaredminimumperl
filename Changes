@@ -1,5 +1,9 @@
 # Changes for Module::Extract::Use
 
+1.01 - Tue Nov  1 12:50:29 2011
+	* The first shot at Module::Extract::DeclaredMinimumPerl, a
+	module to extract the maximum declared minimum Perl version.
+
 1.02 - Tue Nov  1 11:02:58 2011
 	* Adjusted no_index. No code changes.
 
