@@ -1,1 +1,5 @@
 # Changes for Module::Extract::DeclaredMinimumPerl
+1.01 - Tue Nov  1 13:00:05 2011
+	* A first shot at Module::Extract::DeclaredMinimumPerl, a
+	module to extract the maximum declared minimum perl version
+
