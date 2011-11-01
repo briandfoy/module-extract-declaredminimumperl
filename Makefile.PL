@@ -1,13 +1,13 @@
 use ExtUtils::MakeMaker;
 
-require 5.008;
+require 5.010;
 
 eval "use Test::Manifest 1.21";
 
 WriteMakefile(
-	'NAME'	       => 'Module::Extract::Use',
-	'ABSTRACT'     => 'Extract the modules that a modules uses',
-	'VERSION_FROM' => 'lib/Module/Extract/Use.pm',
+	'NAME'	       => 'Module::Extract::DeclaredMinimumPerl',
+	'ABSTRACT'     => 'Extract the version of Perl a module declares',
+	'VERSION_FROM' => 'lib/Module/Extract/DeclaredMinimumPerl.pm',
 	'LICENSE'      => 'perl',
 	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 	
@@ -24,7 +24,7 @@ WriteMakefile(
 
 		META_MERGE       => {
 			resources => {
-		  		repository => 'git://github.com/briandfoy/module--extract--use.git',
+		  		repository => 'git://github.com/briandfoy/module-extract-declaredminimumperl.git',
 				},
 			keywords => [ qw( ppi parsing static-analysis modules ) ],
 			no_index => {

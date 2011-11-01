@@ -1,3 +1,6 @@
+use 5.008;
+use 5.011;
+
 package Local::Repeated;
 
 use strict;

@@ -1,3 +1,4 @@
+use v5.10;
 use URI;
 use CGI qw(:standard);
 use LWP::Simple 1.23 qw(getstore);
