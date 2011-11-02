@@ -1,5 +1,5 @@
 BEGIN {
-	@classes = qw(Module::Extract::Use);
+	@classes = qw(Module::Extract::DeclaredMinimumPerl);
 	}
 
 use Test::More tests => scalar @classes;
