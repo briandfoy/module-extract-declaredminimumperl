@@ -3,3 +3,6 @@
 	* A first shot at Module::Extract::DeclaredMinimumPerl, a
 	module to extract the maximum declared minimum perl version
 
+1.01_01 - Wed Nov  2 06:50:25 2011
+	* A small fix to the test suite
+
