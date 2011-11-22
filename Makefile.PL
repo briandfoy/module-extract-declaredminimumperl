@@ -11,12 +11,12 @@ WriteMakefile(
 	'LICENSE'      => 'perl',
 	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 	
-	'PREREQ_PM'    => { 
-		'PPI'          => '0',
-		'Test::More'   => '0',
-		'Test::Output' => '0',
-		'version'      => '0',
-		'feature'      => '0',
+	'PREREQ_PM'    => {
+		'feature'              => '0',
+		'PPI'                  => '0',
+		'Test::More'           => '0',
+		'Test::Output'         => '0',
+		'version'              => '0',
 		},
 
 	(
@@ -26,19 +26,19 @@ WriteMakefile(
 
 		META_MERGE       => {
 			resources => {
-		  		repository => 'git://github.com/briandfoy/module-extract-declaredminimumperl.git',
+				repository => 'git://github.com/briandfoy/module-extract-declaredminimumperl.git',
 				},
 			keywords => [ qw( ppi parsing static-analysis modules ) ],
 			no_index => {
 				dir       => [ qw(corpus) ],
 				directory => [ qw(corpus) ],
 				},
-	  		},
+			},
 	 	) 
 	 	: 
 	 	()
 	 ),
-		
-	clean  => { FILES    => q|Module-Extract-Use-*| },
+
+	clean  => { FILES    => q|Module-Extract-DeclaredMinimumPerl-*| },
 
 	);
