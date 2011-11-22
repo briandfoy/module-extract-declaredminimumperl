@@ -10,7 +10,7 @@ no warnings;
 use subs qw();
 use vars qw($VERSION);
 
-$VERSION = '1.01_01';
+$VERSION = '1.01_02';
 
 =head1 NAME
 
