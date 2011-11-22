@@ -35,6 +35,12 @@ ok( -e $test, "Test file is there" );
 my $version = $extor->get_minimum_declared_perl( $test );
 ok( ! $extor->error, "No error for parseable file [$test]" );
 
+ok( defined eval { version->parse( v5.10 ) } );
+if( my $err = $@ ) {
+	diag sprintf "version %s had a problem parsing v5.10! $err", version->VERSION;
+	diag sprintf "Found version.pm in $INC{'version.pm'}";
+	}
+
 is( 
 	$version, 
 	eval { version->parse( v5.10 ) }, 
@@ -52,6 +58,12 @@ ok( -e $file, "Test file [$file] is there" );
 
 my $version = $extor->get_minimum_declared_perl( $file );
 ok( ! $extor->error, "No error for parseable file [$file]" );
+
+ok( defined eval { version->parse( v5.11 ) } );
+if( my $err = $@ ) {
+	diag sprintf "version %s had a problem parsing v5.11! $err", version->VERSION;
+	diag sprintf "Found version.pm in $INC{'version.pm'}";
+	}
 
 is( 
 	$version, 
