@@ -3,6 +3,9 @@
 	* A first shot at Module::Extract::DeclaredMinimumPerl, a
 	module to extract the maximum declared minimum perl version
 
+1.02 - Fri Jan  3 13:54:27 2014
+	* Get rid of MYMETA
+
 1.01_02 - Tue Nov 22 15:39:50 2011
 	* Adjust the test to check the return value of version->parse
 	before I use it for the expected value in the tests
