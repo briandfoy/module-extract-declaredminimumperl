@@ -6,11 +6,11 @@ my $github    = 'https://github.com/briandfoy/';
 my $main_file = 'lib/';
 
 my %WriteMakefile = (
-	'NAME'	       => 'Module::Extract::DeclaredMinimumPerl',
+	'NAME'	        => 'Module::Extract::DeclaredMinimumPerl',
 	'ABSTRACT_FROM' => $main_file,
-	'VERSION_FROM' => 'lib/Module/Extract/DeclaredMinimumPerl.pm',
-	'LICENSE'      => 'perl',
-	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
+	'VERSION_FROM'  => $main_file,
+	'LICENSE'       => 'perl',
+	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 	
 	'PREREQ_PM'    => {
 		'feature'              => '0',
