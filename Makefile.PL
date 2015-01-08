@@ -2,17 +2,31 @@ require 5.010;
 use strict;
 use warnings;
 
-my $github    = 'https://github.com/briandfoy/';
-my $main_file = 'lib/';
+use File::Spec::Functions qw(catfile);
+
+my $module    = 'Module::Extract::DeclaredMinimumPerl';
+my $github    = 'https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl';
+my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
-	'NAME'	        => 'Module::Extract::DeclaredMinimumPerl',
+	'NAME'	        => $module,
 	'ABSTRACT_FROM' => $main_file,
 	'VERSION_FROM'  => $main_file,
 	'LICENSE'       => 'perl',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
-	
-	'PREREQ_PM'    => {
+
+	'CONFIGURE_REQUIRES' => {
+		'ExtUtils::MakeMaker' => '6.64',
+		},
+
+	'BUILD_REQUIRES' => {
+		},
+
+	'TEST_REQUIRES' => {
+		'Test::More' => '0.94',
+		},
+
+	'PREREQ_PM'     => {
 		'feature'              => '0',
 		'PPI'                  => '0',
 		'Test::More'           => '0',
@@ -20,28 +34,26 @@ my %WriteMakefile = (
 		'version'              => '0',
 		},
 
-	(
-	$ExtUtils::MakeMaker::VERSION ge '6.48' ? 
-		(
-		MIN_PERL_VERSION => 5.006,
-
-		META_MERGE       => {
-			resources => {
-				repository => 'git://github.com/briandfoy/module-extract-declaredminimumperl.git',
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => "$github.git",
+				web  => $github,
 				},
-			keywords => [ qw( ppi parsing static-analysis modules ) ],
-			no_index => {
-				dir       => [ qw(corpus) ],
-				directory => [ qw(corpus) ],
+			bugtraker => {
+				web    => "$github/issues",
 				},
+			homepage => $github,
 			},
-	 	) 
-	 	: 
-	 	()
-	 ),
+		no_index => {
+			dir       => [ qw(corpus) ],
+			directory => [ qw(corpus) ],
+			},
+		},
 
 	clean  => { FILES    => q|Module-Extract-DeclaredMinimumPerl-*| },
-
 	);
 
 sub arguments { \%WriteMakefile }
