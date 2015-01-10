@@ -5,6 +5,8 @@ use warnings;
 use File::Spec::Functions qw(catfile);
 
 my $module    = 'Module::Extract::DeclaredMinimumPerl';
+( my $dist = $module ) =~ s/::/-/g;
+
 my $github    = 'https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
