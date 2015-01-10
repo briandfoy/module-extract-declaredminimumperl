@@ -56,7 +56,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	clean  => { FILES    => q|Module-Extract-DeclaredMinimumPerl-*| },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
