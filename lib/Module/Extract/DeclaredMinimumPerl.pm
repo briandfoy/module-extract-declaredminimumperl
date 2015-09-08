@@ -12,6 +12,8 @@ use vars qw($VERSION);
 
 $VERSION = '1.02';
 
+=encoding utf8
+
 =head1 NAME
 
 Module::Extract::DeclaredMinimumPerl - Extract the version of Perl a module declares
@@ -31,8 +33,8 @@ Extract the largest declared Perl version and returns it as a
 version object. For instance, in a script you might have:
 
   use v5.16;
-  
-This module will extract that C<v5.16> and return it. 
+
+This module will extract that C<v5.16> and return it.
 
 This module tries to handle any format that PPI will recognize, passing
 them through version.pm to normalize them.
