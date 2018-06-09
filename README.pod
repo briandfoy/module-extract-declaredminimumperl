@@ -32,17 +32,8 @@ name instead of the file location:
 
 	% perldoc Module::Extract::DeclaredMinimumPerl
 
-You can read the documentation and inspect the meta data on one of the
-CPAN web interfaces, such as L<CPAN Search|http://search.cpan.org/dist/Module-Extract-DeclaredMinimumPerl> or
+You can read the documentation and inspect the meta data on
 L<MetaCPAN|http://www.metacpan.org/module/Module::Extract::DeclaredMinimumPerl>:
-
-=over 4
-
-=item *	L<http://search.cpan.org/dist/Module-Extract-DeclaredMinimumPerl>
-
-=item *	L<http://www.metacpan.org/module/Module::Extract::DeclaredMinimumPerl>
-
-=back
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's
