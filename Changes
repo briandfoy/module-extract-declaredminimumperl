@@ -1,5 +1,8 @@
 Revision history for Perl module Module::Extract::DeclaredMinimumPerl
 
+1.021 2018-06-09T13:01:54Z
+	* Change to Artistic License 2.0.
+
 1.02 - 2014-01-03
 	* Get rid of MYMETA
 
