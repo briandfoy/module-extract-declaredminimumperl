@@ -2,13 +2,13 @@
 
 =encoding utf8
 
-=for HTML <a href="https://travis-ci.org/briandfoy/Module-Extract-DeclaredMinimumPerl"><img src="https://travis-ci.org/briandfoy/Module-Extract-DeclaredMinimumPerl.svg?branch=master" /></a>
+=for HTML <a href="https://travis-ci.org/briandfoy/module-extract-declaredminimumperl"><img src="https://travis-ci.org/briandfoy/module-extract-declaredminimumperl.svg?branch=master" /></a>
 
-=for HTML <a href='https://ci.appveyor.com/project/briandfoy/Module-Extract-DeclaredMinimumPerl'><img src='https://ci.appveyor.com/api/projects/status/67xtjg39npdgy0mu' /></a>
+=for HTML <a href='https://ci.appveyor.com/project/briandfoy/module-extract-declaredminimumperl'><img src='https://ci.appveyor.com/api/projects/status/67xtjg39npdgy0mu' /></a>
 
-=for HTML <a href='https://coveralls.io/github/briandfoy/Module-Extract-DeclaredMinimumPerl?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/Module-Extract-DeclaredMinimumPerl/badge.svg?branch=master' alt='Coverage Status' /></a>
+=for HTML <a href='https://coveralls.io/github/briandfoy/module-extract-declaredminimumperl?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/module-extract-declaredminimumperl/badge.svg?branch=master' alt='Coverage Status' /></a>
 
-=for HTML <a href="https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Module-Extract-DeclaredMinimumPerl.svg" /></a>
+=for HTML <a href="https://github.com/briandfoy/module-extract-declaredminimumperl/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Module-Extract-DeclaredMinimumPerl.svg" /></a>
 
 =for HTML <a href="http://www.metacpan.org/module/Module::Extract::DeclaredMinimumPerl"><img src="https://img.shields.io/cpan/v/Module-Extract-DeclaredMinimumPerl.svg" /></A>
 
@@ -72,16 +72,16 @@ the source repository:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl>
+=item *	L<https://github.com/briandfoy/module-extract-declaredminimumperl>
 
 =back
 
 If you find a problem, file a ticket in the L<issue
-tracker|https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl/issues>:
+tracker|https://github.com/briandfoy/module-extract-declaredminimumperl/issues>:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl/issues>
+=item *	L<https://github.com/briandfoy/module-extract-declaredminimumperl/issues>
 
 =back
 

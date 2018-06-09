@@ -163,7 +163,9 @@ L<Module::Extract::Use>
 
 =head1 SOURCE AVAILABILITY
 
-The source code is in Github: git://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl.git
+The source code is in Github:
+
+	https://github.com/briandfoy/module-extract-declaredminimumperl
 
 =head1 AUTHOR
 
