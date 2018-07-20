@@ -10,7 +10,7 @@
 
 =for HTML <a href="https://github.com/briandfoy/module-extract-declaredminimumperl/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Module-Extract-DeclaredMinimumPerl.svg" /></a>
 
-=for HTML <a href="http://www.metacpan.org/module/Module::Extract::DeclaredMinimumPerl"><img src="https://img.shields.io/cpan/v/Module-Extract-DeclaredMinimumPerl.svg" /></A>
+=for HTML <a href="https://metacpan.org/pod/Module::Extract::DeclaredMinimumPerl"><img src="https://img.shields.io/cpan/v/Module-Extract-DeclaredMinimumPerl.svg" /></A>
 
 =head1 The Module::Extract::DeclaredMinimumPerl module
 
@@ -23,7 +23,7 @@ for any Perl module.
 
 To read about L<Module::Extract::DeclaredMinimumPerl>, look at the embedded documentation
 in the module itself. Inside the distribution, you can format it
-with L<perldoc|http://perldoc.perl.org/perldoc.html>:
+with L<perldoc|https://perldoc.perl.orgperldoc.html>:
 
 	% perldoc lib/Module/Extract/DeclaredMinimumPerl.pm
 
@@ -33,7 +33,7 @@ name instead of the file location:
 	% perldoc Module::Extract::DeclaredMinimumPerl
 
 You can read the documentation and inspect the meta data on
-L<MetaCPAN|http://www.metacpan.org/module/Module::Extract::DeclaredMinimumPerl>:
+L<MetaCPAN|https://metacpan.org/pod/Module::Extract::DeclaredMinimumPerl>:
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's
