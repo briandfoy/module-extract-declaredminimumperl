@@ -137,7 +137,7 @@ sub _get_ppi_for_file {
 
 =item error
 
-Return the error from the last call to C<get_modules>.
+Return the error from the last call to C<get_minimum_declared_perl>.
 
 =cut
 
