@@ -7,7 +7,6 @@ use strict;
 use warnings;
 no warnings;
 
-use subs qw();
 
 our $VERSION = '1.021';
 
