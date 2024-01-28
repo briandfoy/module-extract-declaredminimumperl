@@ -21,7 +21,7 @@ our $VERSION = '1.10';
 
 Use: extract_modules filename [...]
 
-Given Perl files, extract and report the Perl modules included 
+Given Perl files, extract and report the Perl modules included
 with C<use> or C<require>.
 
 =head1 DESCRIPTION
@@ -46,12 +46,12 @@ my %methods = qw(
 	Module::Extract::Use get_modules
 	Module::ExtractUse   extract_use
 	);
-	
+
 foreach my $module ( @classes ) {
 	eval "require $module";
 	next if $@;
 	( $object, $method ) = ( $module->new, $methods{$module} );
-	}	
+	}
 
 die "No usable file scanner module found; exiting...\n" unless defined $object;
 
@@ -64,7 +64,7 @@ foreach my $file ( @ARGV ) {
 
 	dump_list( $file, sort $object->$method( $file ) );
 	}
-	
+
 
 BEGIN {
 my $corelist = eval { require Module::CoreList };
